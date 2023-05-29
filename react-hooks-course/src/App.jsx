@@ -3,6 +3,7 @@ import UseStateDemo from './useState/UseStateDemo'
 import UseReducerDemo from './useReducer/UseReducerDemo'
 import UseEffectDemo from './useEffect/UseEffectDemo'
 import UseRefDemo from './useRef/UseRefDemo'
+import UseLayoutEffectDemo from './useLayoutEffect/UseLayoutEffectDemo'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <UseReducerDemo />
       <UseEffectDemo />
       <UseRefDemo />
+      <UseLayoutEffectDemo />
     </div>
   )
 }
